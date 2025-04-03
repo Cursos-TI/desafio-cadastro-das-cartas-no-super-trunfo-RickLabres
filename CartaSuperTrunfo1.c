@@ -92,7 +92,7 @@ int main() {
         printf("O PIB da cidade é: R$%.1f Bilhões de Reais.\n", PIB1);
         printf("O número de pontos turísticos da cidade é: %d \n", Pontos1);
         printf("\n");
-        printf("Carta 02\n");
+        printf("Carta: 02\n");
         printf("Estado: %c \n" , Estado2);
         printf("Nome da cidade: %s \n" , Cidade2);
         printf("O Código da carta é: %s \n" , Codigo2);
