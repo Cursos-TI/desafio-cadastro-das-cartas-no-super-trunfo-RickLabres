@@ -34,7 +34,7 @@ int main() {
         scanf("%c" , &Estado1 );
 
         printf("Digite o nome da cidade: (Fortaleza) \n");
-        scanf("%s" , &Cidade1);
+        scanf("%s", &Cidade1);
 
         printf("Digite o Código (Estado + carta):\n");
         scanf("%s", &Codigo1);
@@ -58,25 +58,25 @@ int main() {
         PIB 62.954 bilhoes, Número de pontos turisticos 45  */
 
         printf("Insira o estado (B) para a carta 02: \n");
-        scanf("%c" , &Estado2);
+        scanf(" %c" , &Estado2);
 
         printf("Digite o nome da cidade: (Salvador) \n");
-        scanf("%s" , &Cidade2);
+        scanf(" %s" , &Cidade2);
 
         printf("Digite o Código (Estado + carta): \n");
-        scanf("%s" , &Codigo2);
+        scanf(" %s" , &Codigo2);
 
         printf("Insira a população da cidade (2417678): \n");
-        scanf("%d" , &Populacao2);
+        scanf(" %d" , &Populacao2);
 
         printf("Insira a Área da cidade (693.8): \n");
-        Scanf("%f" , &Area2);
+        scanf(" %f" , &Area2);
 
         printf("Digite o PIB da cidade (62.954): \n");
-        scanf("%f" , &PIB2);
+        scanf(" %f" , &PIB2);
 
         printf("Digite o Número de pontos turísticos da cidade (45): \n");
-        scanf("%d" , Pontos2);
+        scanf(" %d" , &Pontos2);
 
 
 
@@ -97,8 +97,8 @@ int main() {
         printf("Nome da cidade: %s \n" , Cidade2);
         printf("O Código da carta é: %s \n" , Codigo2);
         printf("A População da cidade é: %d habitantes. \n" , Populacao2);
-        printf("A Área da cidade é: %f km² \n" , Area2 );
-        printf("O PIB da cidade é: R$%f Bilhões de Reais. \n", PIB2);
+        printf("A Área da cidade é: %.1f km² \n" , Area2 );
+        printf("O PIB da cidade é: R$%.1f Bilhões de Reais. \n", PIB2);
         printf("O número de pontos turisticos da cidade é: %d \n" , Pontos2);
        
 
@@ -108,5 +108,5 @@ int main() {
     
 
 
-     return 0;
+    return 0;
 }
